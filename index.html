@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script src="responsiveslides.min.js"></script>
+    <script type="text/javascript" src="jquery.tinycarousel.min.js"></script>
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" />
+    <script src="fancybox/jquery.fancybox.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="wow.min.js"></script> -->
+    <title>Royal Villas</title>
+</head>
+<body>
+    <i class="fa-solid fa-chevron-up cuadrado" id="subir"></i>
+    <header>
+        <div class="cont_redes">
+            <p>Follow Us:</p>
+            <div>
+                <a href="#" class="forma"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="forma"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="forma"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="menuresponsive">
+            <a href="#" id="iconomenu"><i class="fas fa-bars"></i></a>
+        </div>
+        <figure class="logoDesktop">
+            <img src="imagenes/logo.png" alt="Texto descriptivo">
+        </figure>
+        <figure class="logoMovil">
+            <img src="imagenes/logo_movil.png" alt="Texto descriptivo">
+        </figure>
+        <div class="cont_tel">
+            <i class="fa-solid fa-phone"></i>
+            <p>+1 (409) 987–5874</p>
+        </div>
+    </header>
+    <div class="linea"></div>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">SERVICES</a>
+        <a href="#">GALLERY</a>
+        <a href="#">CONTACTS</a>
+        <a href="#">PAGES</a>
+    </nav>
+    <div class="linea"></div> <br>
+    <section class="contgral_slide_fotos">
+        <ul class="ul_slide" id="slider">
+            <li>
+                <img src="imagenes/slide1.jpg" alt="">
+                <div class="cont_caption">
+                    <h1 class="txt_grande">Your Ideal Retreat</h1><br class="no">
+                    <div class="txt_y_linea">
+                        <div class="linea_decorativa"></div>
+                        <p class="txt_peq">Enjoy the world of relaxation</p>
+                        <p class="txt_med">and tranquility!</p>
+                    </div><br><br class="no">
+                    <div><a href="#" class="btn_vacio">learn more</a></div>
+                </div>
+            </li>
+            <li>
+                <img src="imagenes/slide2.jpg" alt="">
+                <div class="cont_caption">
+                    <h1 class="txt_grande">Relax & Unwind</h1><br class="no">
+                    <div class="txt_y_linea">
+                        <div class="linea_decorativa"></div>
+                        <p class="txt_peq">Experience the luxurious level</p>
+                        <p class="txt_med">of our spa treatments</p>
+                    </div><br><br class="no">
+                    <div><a href="#" class="btn_vacio">learn more</a></div>
+                </div>
+            </li>
+            <li>
+                <img src="imagenes/slide3.jpg" alt="">
+                <div class="cont_caption">
+                    <h1 class="txt_grande">Revitalize & Relax</h1><br class="no">
+                    <div class="txt_y_linea">
+                        <div class="linea_decorativa"></div>
+                        <p class="txt_peq">Indulge in our top-notch</p>
+                        <p class="txt_med">spa resort</p>
+                    </div><br><br class="no">
+                    <div><a href="#" class="btn_vacio">learn more</a></div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+    <div class="fondo_modal" id="modal">
+        <div class="cont_elem_modal">
+            <div class="tachita">
+                <h1>Book a room</h1>
+                <div><i class="fa-solid fa-square-xmark" id="cerrar"></i></div>
+            </div>
+            <div class="elem_modal">
+                <h4>YOUR NAME</h4>
+                <div>Your full name</div>
+            </div>
+            <div class="elem_modal">
+                <h4>ARRIVAL</h4>
+                <div><i class="fa-solid fa-calendar-days"></i> Check-in date</div>
+            </div>
+            <div class="elem_modal">
+                <h4>DEPARTURE</h4>
+                <div><i class="fa-solid fa-calendar-days"></i> Check-out date</div>
+            </div>
+            <div class="dos">
+                <div class="elem_modal">
+                    <h4>ADULTS</h4>
+                    <div>1</div>
+                </div>
+                <div class="elem_modal">
+                    <h4>CHILDREN</h4>
+                    <div>0</div>
+                </div>
+            </div>
+            <a href="#" class="btn_lleno">SUBMIT</a>
+        </div>
+    </div><br><br>
+
+
+    <section class="cont_video">
+        <div class="video">
+            <iframe
+            src="https://www.youtube.com/embed/B5TgNBKXDn8"
+            frameborder="0"
+            allowfullscreen
+            ></iframe>
+        </div>
+        <div class="about_us">
+            <h1>About us</h1><br>
+            <p>Committed to everyone seeking energy and excitement, we offer endless possibilities to unwind and reenergize.</p>
+            <p> Weekdays: 8:00–20:00 Weekends: 9:00–18:00</p><br>
+            <div><a href="#" class="btn_vacio2">book now</a></div>
+        </div>
+    </section><br><br>
+
+
+    <div class="titulos_secciones">
+        <h1>Key Amenities</h1>
+        <h3>See All Amenities</h3>
+    </div>
+    <div class="linea"></div>
+    <section class="key">
+        <article class="cuadros_key wow animate__animated animate__fadeInDown">
+            <img src="imagenes/icono1.png" alt="">
+            <h1>24-Hour Front Desk</h1>
+            <div class="rayita_morada"></div>
+            <p>The reception is opened 24 hours a day. Our receptionists inform our guests of all the hotel facilities and events, and ensure that everything is done to satisfy their needs during their stay.</p>
+        </article>
+        <article class="cuadros_key wow animate__animated animate__fadeInDown animate__delay-1s">
+            <img src="imagenes/icono2.png" alt="">
+            <h1>Spa Suites</h1>
+            <div class="rayita_morada"></div>
+            <p>Each spa suite has been designed with volcanic rocks, thatched roofs with an open air bathroom, adding a truly magical and tranquil feeling for your well-being.</p>
+        </article>
+        <article class="cuadros_key wow animate__animated animate__fadeInDown animate__delay-2s">
+            <img src="imagenes/icono3.png" alt="">
+            <h1>Transfer Services</h1>
+            <div class="rayita_morada"></div>
+            <p>Enjoy a comfortable ride to our luxury Spa resort and Hotel from the airport by booking our convenient shuttle services or private limos.</p>
+        </article>
+        <article class="cuadros_key wow animate__animated animate__fadeInDown animate__delay-3s">
+            <img src="imagenes/icono4.png" alt="">
+            <h1>A La Carte Restaurant</h1>
+            <div class="rayita_morada"></div>
+            <p>Our Restaurant is opened for breakfast, lunch, and dinner and specializes in gourmet cuisines from around the world, with a variety sure to please any palate.</p>
+        </article>
+    </section><br><br>
+
+
+    <div class="titulos_secciones">
+        <h1>Guest Rooms</h1>
+        <h3>See All Rooms</h3>
+    </div>
+    <div class="linea"></div>
+    <section class="rooms">
+        <article class="cuadros_rooms">
+            <figure>
+                <img src="imagenes/rooms1.jpg" alt="Texto descriptivo">
+                <div class="transparencia_r"></div>
+                <div class="txt_position">
+                    <h1>Standard rooms</h1>
+                    <div class="rayita_blanca"></div>
+                    <p>$75 Per Night</p>
+                </div>
+            </figure>
+        </article>
+        <article class="cuadros_rooms">
+            <figure>
+                <img src="imagenes/rooms2.jpg" alt="Texto descriptivo">
+                <div class="transparencia_r"></div>
+                <div class="txt_position">
+                    <h1>King guest rooms</h1>
+                    <div class="rayita_blanca"></div>
+                    <p>$78 Per Night</p>
+                </div>
+            </figure>
+        </article>
+        <article class="cuadros_rooms">
+            <figure>
+                <img src="imagenes/rooms3.jpg" alt="Texto descriptivo">
+                <div class="transparencia_r"></div>
+                <div class="txt_position">
+                    <h1>Deluxe suites</h1>
+                    <div class="rayita_blanca"></div>
+                    <p>$95 Per Night</p>
+                </div>
+            </figure>
+        </article>
+    </section> <br><br><br>
+
+
+    <section class="numeros">
+        <article class="cont_num wow animate__animated animate__fadeInDown">
+            <h1>10</h1>
+            <h4>YEARS OF EXPERIENCE</h4>
+        </article>
+        <article class="cont_num wow animate__animated animate__fadeInDown animate__delay-1s">
+            <h1>7</h1>
+            <h4>SPA TREATMENT ROOMS</h4>
+        </article>
+        <article class="cont_num wow animate__animated animate__fadeInDown animate__delay-2s">
+            <h1>26</h1>
+            <h4>FACE & BODY TREATMENTS</h4>
+        </article>
+        <article class="cont_num wow animate__animated animate__fadeInDown animate__delay-3s">
+            <h1>12</h1>
+            <h4>TYPES OF MASSAGES</h4>
+        </article>
+    </section><br><br><br>
+
+
+    <div class="titulos_secciones">
+        <h1>Our gallery</h1>
+        <h3>See all photos</h3>
+    </div>
+    <div class="linea"></div><br>
+    <section id="galeria">
+        <div>
+            <a href="imagenes/galeria1.jpg" class="fancybox" rel="gallery1">
+                <img src="imagenes/galeria1.jpg" alt="" />
+            </a>
+        </div>
+        <div>
+            <div>
+                <a href="imagenes/galeria2.jpg" class="fancybox" rel="gallery1">
+                    <img src="imagenes/galeria2.jpg" alt="" />
+                </a>
+            </div>
+            <div>
+                <a href="imagenes/galeria3.jpg" class="fancybox" rel="gallery1">
+                    <img src="imagenes/galeria3.jpg" alt="" />
+                </a>
+            </div>
+        </div>
+        <div>
+            <a href="imagenes/galeria4.jpg" class="fancybox" rel="gallery1">
+                <img src="imagenes/galeria4.jpg" alt="" />
+            </a>
+        </div>
+        <div>
+            <div>
+                <a href="imagenes/galeria5.jpg" class="fancybox" rel="gallery1">
+                    <img src="imagenes/galeria5.jpg" alt="" />
+                </a>
+            </div>
+            <div>
+                <a href="imagenes/galeria6.jpg" class="fancybox" rel="gallery1">
+                    <img src="imagenes/galeria6.jpg" alt="" />
+                </a>
+            </div>
+        </div>
+    </section><br><br><br>
+
+    <div class="titulos_secciones cont_titulo_key">
+        <h1>Our prices</h1>
+    </div>
+    <div class="linea"></div><br>
+    <section class="precios">
+        <article class="cont_precios">
+            <h1>MASSAGES</h1> <br>
+            <div class="niidea">
+                <div class="titulo1">
+                    <h2>Hot Stone Massage</h2>
+                    <div class="linea2"></div>
+                    <h2>$95</h2>
+                </div>
+                <div class="cuerpo1">
+                    <p class="gris">Enjoy this organic form of massage, where heated stones applied to the body stimulate the circulatory system, relax tense muscles, release toxins, and create a feeling of peacefulness.</p>
+                </div>
+            </div>
+            <div class="niidea">
+                <div class="titulo2">
+                    <h2>Relaxation Massage</h2>
+                    <div class="linea2"></div>
+                    <h2>$55</h2>
+                </div>
+                <div class="cuerpo2">
+                    <p class="gris">Customized for your body's need, the Relaxation Massage is a wonderful way to work your body's muscles while relieving tension and day-to-day stress.</p>
+                </div>
+            </div>
+            <div class="niidea">
+                <div class="titulo3">
+                    <h2>Deep Tissue Massage</h2>
+                    <div class="linea2"></div>
+                    <h2>$60</h2>
+                </div>
+                <div class="cuerpo3">
+                    <p class="gris">For the avid athlete and guests looking for a more intensive massage, the Deep Tissue Massage is designed to loosen muscles, alleviate pain and increase mobility. This massage is both corrective and therapeutic.</p>
+                </div>
+            </div>
+        </article>
+        <article class="cont_precios">
+            <h1>TREATMENTS</h1> <br>
+            <div class="niidea">
+                <div class="titulo4">
+                    <h2>Facial Treatments</h2>
+                    <div class="linea2"></div>
+                    <h2>$48</h2>
+                </div>
+                <div class="cuerpo4">
+                    <p class="gris">We are proud to offer facial services that address the needs of every skin type and condition. Each treatment is not only designed to produce a radiant complexion but to create total tranquility.</p>
+                </div>
+            </div>
+            <div class="niidea">
+                <div class="titulo5">
+                    <h2>Hydrotherapy Bath</h2>
+                    <div class="linea2"></div>
+                    <h2>$26</h2>
+                </div>
+                <div class="cuerpo5">
+                    <p class="gris">Our unique soaking tubs are designed to relax and soothe the body with warm water, spring filters, massage jets, and color therapy.</p>
+                </div>
+            </div>
+            <div class="niidea">
+                <div class="titulo6">
+                    <h2>Wraps and Treatments</h2>
+                    <div class="linea2"></div>
+                    <h2>$42</h2>
+                </div>
+                <div class="cuerpo6">
+                    <p class="gris">Our body treatments and wraps will hydrate and detoxify the skin. Let our certified technicians work with you to address your specific needs and bring your skin back to life.</p>
+                </div>
+            </div>
+        </article>
+    </section> <br><br><br>
+
+    <div class="titulos_secciones cont_titulo_key">
+        <h1>Testimonials</h1>
+    </div>
+    <div class="linea"></div><br>
+    <section class="parallaxs">
+        <div class="clippy">
+            <div class="txt1_parallaxs">
+                <img src="imagenes/comillas.png" alt="" class="comillas">
+                <h1>Wonderful and friendly environment</h1>
+            </div>
+            <p>No better way to rediscover the joy in everyday living than at Royal Villas. Second time to visit and experience was just as powerful as the first. They exceeded all my expectation one again. This is the place to visit if you are looking for a high-quality spa!"</p>
+            <br>
+        </div>
+        <figure>
+            <p>JULIE ADAMS</p>
+            <img src="imagenes/persona1.jpg" alt="Texto descriptivo">
+        </figure>
+    </section> <br><br><br>
+
+    <div class="titulos_secciones cont_titulo_key">
+        <h1>Our blog</h1>
+    </div>
+    <div class="linea"></div><br>
+    <section id="carrousel">
+		<a class="buttons left" href="#">
+			<i class="fa-solid fa-chevron-left"></i>
+		</a>
+		<div class="viewport">
+			<ul class="overview">
+				<li>
+					<img src="imagenes/carrousel1.jpg" />
+                    <div class="txt_carrousel">
+                        <h1>Top 3 Reasons Why Royal Villas Offers the Best Spa Procedures</h1>
+                        <div class="linea"></div>
+                        <div class="elem_carrousel">
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <p>October 12, 2017</p>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <p>78</p>
+                            </div>
+                        </div>
+                    </div>
+				</li>
+				<li>
+					<img src="imagenes/carrousel2.jpg" />
+                    <div class="txt_carrousel">
+                        <h1>Featured Therapies and Activities at Royal Villas Spa Resort and Hotel</h1>
+                        <div class="linea"></div>
+                        <div class="elem_carrousel">
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <p>October 26, 2017</p>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <p>15</p>
+                            </div>
+                        </div>
+                    </div>
+				</li>
+				<li>
+					<img src="imagenes/carrousel3.jpg" />
+                    <div class="txt_carrousel">
+                        <h1>Why Your Relaxing Getaway Starts Here</h1>
+                        <div class="linea"></div>
+                        <div class="elem_carrousel">
+                            <div>
+                                <i class="fa-regular fa-clock"></i>
+                                <p>August 23, 2017</p>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <p>40</p>
+                            </div>
+                        </div>
+                    </div>
+				</li>
+			</ul>
+		</div>
+		<a class="buttons right" href="#">
+            <i class="fa-solid fa-chevron-right"></i>
+		</a>
+	</section><br><br><br>
+
+
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.4916811552434!2d-89.66899797320364!3d21.013003827497844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5674891d01315f%3A0xcb8ba96b39a6031c!2sInstituto%20Tecnol%C3%B3gico%20de%20M%C3%A9rida%2C%20Campus%20Poniente!5e0!3m2!1ses-419!2smx!4v1670136782026!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div><br><br><br>
+
+
+    <footer>
+        <div class="sec_footer">
+            <h1>Opening Hours</h1>
+            <p> <span class="gris">Weekdays:</span> 8:00–20:00 <span class="gris">Weekdays:</span> 9:00–18:00</p>
+            <p class="gris">Royal Villas © 2022. Privacy Policy</p>
+        </div>
+        <div class="sec_footer">
+            <h1>Address</h1>
+            <p><i class="fa-solid fa-location-dot"></i> 6036 Richmond hwy., Alexandria, VA, 2230</p>
+            <p><i class="fa-solid fa-phone"></i> Call Us: +1 (409) 987–5874</p>
+        </div>
+        <div class="sec_footer">
+            <h1>Join Our Newsletter</h1>
+            <div class="cont_btn_email">
+                <div>Enter your e-mail</div>
+                <a href="#" class="btn_lleno2">Subscribe</a>
+            </div>
+        </div>
+    </footer> <br class="no"><br><br>
+
+
+
+
+    <script>
+        $(".titulo1").click(function () {
+            $(".cuerpo1").slideToggle();
+        });
+        $(".titulo2").click(function () {
+            $(".cuerpo2").slideToggle();
+        });
+        $(".titulo3").click(function () {
+            $(".cuerpo3").slideToggle();
+        });
+        $(".titulo4").click(function () {
+            $(".cuerpo4").slideToggle();
+        });
+        $(".titulo5").click(function () {
+            $(".cuerpo5").slideToggle();
+        });
+        $(".titulo6").click(function () {
+            $(".cuerpo6").slideToggle();
+        });
+    </script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#carrousel').tinycarousel();
+		});
+	</script>
+    <script>
+        $(document).ready(function () {
+        $("#subir").click(function () {
+            $("html,body").animate(
+            { scrollTop: "0px",},
+            1000
+            );
+        });
+            });
+    </script>
+    <script>
+        var fondomodal = document.getElementById("modal");
+        // var abrirbtn = document.getElementById("btnAbrir");
+        var cerrarbtn = document.getElementById("cerrar");
+        // function tiempo(){
+        //     fondomodal.style.display = "block";
+        // }
+        // setTimeout(tiempo, 5000);
+        // abrirbtn.onclick = function(){
+        //     fondomodal.style.display = "block";
+        // };
+        cerrarbtn.onclick = function(){
+            fondomodal.style.display = "none";
+        };
+    </script>
+
+    <script>
+        $(function () {
+          $("#slider").responsiveSlides({
+            auto: false,
+            pager: false,
+            nav: true,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+              $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+              $('.events').append("<li>after event fired.</li>");
+            }
+          });
+        });
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $("#iconomenu").click(function () {
+            $("nav").slideToggle();
+        });
+    </script>
+</body>
+</html>
